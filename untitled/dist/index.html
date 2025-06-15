@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Python для новичков</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e0e;
+      color: #f2f2f2;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 50px 20px;
+      text-align: center;
+      border-bottom: 3px solid #00ffcc;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #00ffcc;
+      text-transform: uppercase;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 15px 0;
+      border-bottom: 1px solid #333;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #f2f2f2;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #00ffcc;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+    h2 {
+      color: #00ffcc;
+      border-left: 5px solid #00ffcc;
+      padding-left: 15px;
+      margin-top: 60px;
+      font-size: 2em;
+    }
+    pre {
+      background: #1e1e1e;
+      padding: 15px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin-top: 20px;
+    }
+    ul {
+      list-style-type: square;
+      margin-left: 25px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 10px;
+      background: #1a1a1a;
+      border: 1px solid #444;
+      color: #fff;
+      border-radius: 4px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #00ffcc;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      color: #000;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #1a1a1a;
+      color: #888;
+      font-size: 0.9em;
+      border-top: 1px solid #333;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Python для Новичков</h1>
+  <p>Мягкий как змея, мощный как ракета. Python ждёт тебя!</p>
+</header>
+
+<nav>
+  <a href="#intro">Введение</a>
+  <a href="#about">О Python</a>
+  <a href="#examples">Примеры</a>
+  <a href="#tips">Советы</a>
+  <a href="#resources">Ресурсы</a>
+  <a href="#contact">Контакты</a>
+</nav>
+
+<section id="intro">
+  <h2>Введение</h2>
+  <p>Ты никогда не программировал? Идеально. Python создан именно для таких, как ты. Этот язык стал входом в мир IT для миллионов людей. Он читается почти как английский, прощает ошибки, а на его основе пишутся сайты, игры, телеграм-боты, приложения и даже анализируются данные NASA.</p>
+  <p>Здесь ты найдёшь всё, чтобы сделать первые шаги уверенно. Без скучных теорий. Только практика, мотивация и немного магии 🪄.</p>
+</section>
+
+<section id="about">
+  <h2>Что такое Python?</h2>
+  <p>Python — это высокоуровневый язык программирования, созданный в конце 1980-х годов Гвидо ван Россумом. Его главные черты: простота, лаконичность, читаемость.</p>
+  <p>Он популярен во всём мире и используется компаниями вроде Google, NASA, Instagram, Spotify и другими. Python — это не просто язык, это универсальный инструмент для программиста XXI века.</p>
+
+  <ul>
+    <li>Работа с текстом и файлами</li>
+    <li>Создание телеграм-ботов и парсеров</li>
+    <li>Аналитика и машинное обучение</li>
+    <li>Веб-разработка (Flask, Django)</li>
+    <li>Автоматизация рутинных задач</li>
+  </ul>
+</section>
+
+<section id="examples">
+  <h2>Примеры кода</h2>
+  <p>Немного магии Python ниже:</p>
+  <pre><code># Приветствие
+print("Привет, Python!")
+
+# Условие
+age = 18
+if age >= 18:
+    print("Ты взрослый!")
+else:
+    print("Ещё подрасти :)")
+
+# Функция
+def say_hello(name):
+    return f"Привет, {name}!"
+
+print(say_hello("Айгуль"))</code></pre>
+</section>
+
+<section id="tips">
+  <h2>Советы для новичков</h2>
+  <ul>
+    <li>Пиши код каждый день, даже 10 минут важны.</li>
+    <li>Ошибки — это не провал, а шаг к пониманию.</li>
+    <li>Делай мини-проекты: калькулятор, чат-бот, список дел.</li>
+    <li>Изучай английский — почти весь код и документация на нём.</li>
+    <li>Не бойся спрашивать. Вопрос — это не слабость, а сила.</li>
+  </ul>
+</section>
+
+<section id="resources">
+  <h2>Ресурсы и курсы</h2>
+  <ul>
+    <li><a href="https://python.org" target="_blank">Официальный сайт Python</a></li>
+    <li><a href="https://stepik.org/course/67" target="_blank">Stepik — курс для новичков</a></li>
+    <li><a href="https://proglib.io/p/python-dlya-nachinayushchih-2021-10-04" target="_blank">Proglib: Путь новичка</a></li>
+    <li><a href="https://habr.com/ru/hub/python/" target="_blank">Habr: статьи про Python</a></li>
+    <li><a href="https://replit.com/" target="_blank">Replit: онлайн-песочница для кода</a></li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Задать вопрос</h2>
+  <p>Остались сомнения, идеи, или хочешь просто сказать "спасибо"? Напиши мне 👇</p>
+  <form>
+    <input type="text" placeholder="Имя" required>
+    <input type="email" placeholder="Email" required>
+    <textarea rows="5" placeholder="Твоё сообщение..."></textarea>
+    <button type="submit">Отправить</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Python School. Сделано с 🐍, 🍵 и любовью.
+</footer>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
